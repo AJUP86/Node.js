@@ -1,0 +1,19 @@
+{
+  "name": "1-joke-api",
+  "version": "1.0.0",
+  "description": "Did you know that there is an API for Chuck Norris jokes? That's incredible, right!?",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0"
+  }
+}
