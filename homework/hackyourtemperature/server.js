@@ -1,7 +1,7 @@
 import express, { urlencoded } from "express";
 import fetch from "node-fetch";
 import { keys } from "./sources/keys.js";
-const app = express();
+export const app = express();
 
 app.use(express.json());
 app.use(urlencoded({ extended: false }));
